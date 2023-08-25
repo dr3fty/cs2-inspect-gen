@@ -20,12 +20,12 @@ By default, all inspect links generated for weapons don't have their rarities se
 
 | ID | Name             | Color      |
 |----|------------------|------------|
-| 0  | Default          | Gray       |
-| 1  | Base Grade       | Gray       |
-| 2  | Medium Grade     | Light Blue |
-| 3  | High Grade       | Blue       |
-| 4  | Remarkable       | Purple     |
-| 5  | Exotic           | Pink       |
-| 6  | Extraordinary    | Red        |
+| 0  | Stock            | Gray       |
+| 1  | Consumer Grade   | Gray       |
+| 2  | Industrial Grade | Light Blue |
+| 3  | Mil-Spec Grade   | Blue       |
+| 4  | Restricted       | Purple     |
+| 5  | Classified       | Pink       |
+| 6  | Covert           | Red        |
 | 7  | Contraband       | Gold       |
-| 99 | Unique           | Gold       |
+| 99 |                  | Gold       |
