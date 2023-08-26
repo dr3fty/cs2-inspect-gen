@@ -85,7 +85,7 @@ def main():
 
     paint_wear = args.pop_float(0)
     # Is there a better way to do it in python? 
-    proto.paintwear = int.from_bytes(struct.pack(">f", paint_wear))
+    proto.paintwear = int.from_bytes(struct.pack(">f", paint_wear), "big")
 
     if is_weapon_gen:
         for slot in range(0, 5):
