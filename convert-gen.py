@@ -91,7 +91,7 @@ def main():
         for slot in range(0, 5):
             sticker_id = args.pop_int()
             sticker_wear = args.pop_float(0)
-            if not sticker_id:
+            if sticker_id is None:
                 break
 
             sticker = proto.stickers.add()
